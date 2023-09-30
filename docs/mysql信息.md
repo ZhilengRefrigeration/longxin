@@ -1,6 +1,3 @@
-##### 数据库地址：sh-cynosdbmysql-grp-k3opqrp0.sql.tencentcdb.com:21393
-#### 用户名:root
-#### 密码:!Zx20031114
 
 # 一、数据集概述
 
