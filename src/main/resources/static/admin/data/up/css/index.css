@@ -1,0 +1,171 @@
+  /*全局css*/
+  body, html {
+    width: 100%;
+    height: 100%;
+    background: url("../../index/img/body_bg.png");
+    background-size: 100% 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*头部*/
+header {
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 50%;
+    position: absolute;
+    margin-top: 1%
+}
+
+/*主内容*/
+.main_content {
+    display: flex;
+    justify-content: space-around;
+    height: 87%;
+    border: 0 solid white;
+    margin-top: -1%;
+}
+
+/*左内容*/
+.left_content {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #0b6379;
+}
+
+.stu_info {
+    border: 1px solid #0b6379;
+    width: 60%;
+    height: 25%;
+    position: absolute;
+    float: left;
+    margin-left: 37%;
+    margin-top: 3%;
+}
+
+.stu_info span:nth-child(1) {
+    position: absolute;
+    margin: 6% 0 0 6%;
+}
+
+.stu_info span:nth-child(2) {
+    position: absolute;
+    margin: 6% 0 0 58%
+}
+
+.stu_info span:nth-child(3) {
+    position: absolute;
+    margin: 17% 0 0 6%;
+}
+
+.stu_info span:nth-child(4) {
+    position: absolute;
+    margin: 17% 0 0 58%
+}
+
+.stu_info span:nth-child(5) {
+    position: absolute;
+    margin: 28% 0 0 6%
+}
+
+.stu_info span:nth-child(6) {
+    position: absolute;
+    margin: 39% 0 0 6%
+}
+
+.stu_info span:nth-child(7) {
+    position: absolute;
+    margin: 50% 0 0 6%
+}
+
+.stu_info input {
+    width: 30%;
+    border: 0;
+    margin-left: 1%;
+    height: 20px;
+    margin-top: 1%
+}
+
+.stu_info span {
+    color: #54DFE3;
+    font-size: 15px;
+    margin-left: 1%
+}
+
+/*三大模块*/
+.item {
+    width: 94%;
+    border: 1px solid #0b6379;
+    height: 23%;
+    margin-top: 45%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.item_list {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid #54DFE3;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 5px 0px 0px #4F9D9D;
+}
+
+.it1 {
+    text-align: center;
+    color: #54DFE3
+}
+
+h4 {
+    margin-top: 5px
+}
+
+/*数据表格*/
+.data {
+    width: 94%;
+    margin-left: 3%;
+    border: 1px solid #0b6379;
+    height: 43%;
+    margin-top: 3%
+}
+
+/*右内容*/
+.right_content {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #0b6379;
+}
+
+#content {
+    width: 95%;
+    height: 100%;
+    border: 1px solid #0b6379;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    padding-top: 1%
+}
+
+#content_bottom {
+    width: 95%;
+    height: 40%;
+    border: 1px solid #0b6379;
+    margin-left: 2.5%;
+    margin-top: 2%;
+}

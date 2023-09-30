@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>基于龙芯平台的电商用户大数据分析</title>
+  <link rel="shortcut icon" type="image/ico" href="https://www.loongson.cn/images/favicon.ico">
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+<script src="https://unpkg.com/axios@1.5.1/dist/axios.min.js"></script>
+  <div class="navbar">
+    <input type="checkbox" id="checkbox" />
+    <label for="checkbox">
+      <i class="fa fa-bars"></i>
+    </label>
+    <ul>
+      <li>
+        <img src="https://www.loongson.cn/uploads/images/2022051117173295876.1111.jpg" alt="" />
+        <span>欢迎您! admin</span>
+      </li>
+      <li>
+        <a href="javascript:void(0)">
+          <i class="fa fa-sitemap"></i>
+          <span>数据结果</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)">
+          <i class="fa fa-user"></i>
+          <span>用户分析</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)">
+          <i class="fa fa-shopping-cart"></i>
+          <span>用户画像</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="content">
+    <div id="data-results">
+      <iframe src="data/index/index.html" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+    </div>
+  </div>
+  <div id="pagination">
+    <button id="prevBtn">上一页</button>
+    <button id="nextBtn">下一页</button>
+  </div>
+  <script src="js/index.js"></script>
+  <!--雪花效果-->
+  <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+  <script>
+    var sf = new Snowflakes({
+      color: "#ffffff"
+    });
+  </script>
+  <!--雪花结束-->
+</body>
+
+</html>

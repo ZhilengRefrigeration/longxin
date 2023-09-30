@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>数据展示</title>
+    <script src="https://unpkg.com/axios@1.5.1/dist/axios.min.js"></script>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+    <input type="text" id="search-input" placeholder="请输入搜索内容">
+    <button id="search-btn">搜索</button>
+    <select id="classify-select">
+        <option value="">选择客户类型</option>
+        <option value="一般维持客户">一般维持客户</option>
+        <option value="新客户">新客户</option>
+        <option value="流失客户">流失客户</option>
+        <option value="替力客户">替力客户</option>
+        <option value="重要保持客户">重要保持客户</option>
+        <option value="重要发展客户">重要发展客户</option>
+        <option value="重要挽留客户">重要挽留客户</option>
+    </select>
+    <table id="data-table"></table>
+    <div id="pagination" class="pagination"></div>
+    <div class="page-icon">
+        <button class="beforePage" onclick="prev_click()"><img src="img/page-left.png" /></button>
+        <button>第<input id="currentPage" onchange="choose_page()" type="text" value="1" />页</button>
+        <button class="nextPage" onclick="next_click()"><img src="img/page-right.png" /></button>
+
+    </div>
+</body>
+
+</html>
